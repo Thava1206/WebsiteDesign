@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.mainPage {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.header,
+.description,
+.infomation {
+    flex: 1;
+}
+.header {
+    background-color: aliceblue;
+}
+.description{
+    background-color: aquamarine;
+}
+.infomation {
+    background-color: bisque;
+}
