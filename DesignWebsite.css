@@ -36,7 +36,36 @@ a {
     color: white;
 }
 .description{
-    background-color: aquamarine;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+}
+.details {
+    color: white;
+    margin: 10px;
+}
+.details h1 {
+    font-weight: bold;
+}
+.details p {
+    color:antiquewhite;
+}
+.details button {
+    color: white;
+    background-color: #3882f6;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+
+}
+.Image {
+    width: 200px;
+    height: 120px;
+}
+.Image img {
+    height: auto;
+    width: 100%;
 }
 .infomation {
     background-color: bisque;
