@@ -19,7 +19,7 @@ body {
     background-color: #1f2937;
     color: white;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
 }
 .logo {
@@ -37,12 +37,18 @@ a {
 }
 .description{
     background-color: #1f2937;
+}
+.rows {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+
 }
 .details {
     color: white;
-    margin: 10px;
+    width: 30%;
+    padding: 20px 40px;
+    
 }
 .details h1 {
     font-weight: bold;
@@ -61,11 +67,13 @@ a {
 }
 .Image {
     width: 200px;
-    height: 120px;
+    height: auto;
+    
 }
 .Image img {
     height: auto;
     width: 100%;
+    border-radius: 10px;
 }
 .infomation {
     background-color: bisque;
