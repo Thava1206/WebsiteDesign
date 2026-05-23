@@ -19,7 +19,7 @@ body {
     background-color: #1f2937;
     color: white;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 20px;
 }
 .logo {
@@ -76,5 +76,14 @@ a {
     border-radius: 10px;
 }
 .infomation {
-    background-color: bisque;
+    background-color: white;
+}
+.infomation h1 {
+    display: flex;
+    justify-content: center;
+}
+.ImagesRow {
+    display: flex;
+    justify-content: row;
+    align-items: center;
 }
