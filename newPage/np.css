@@ -1,0 +1,21 @@
+* {
+    background-color: bisque;
+}
+.animated-hover {
+    background-color: orange;
+    border-style: none;
+    border-radius: 1cm;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    
+}
+.animated-hover:hover {
+    transform: scale(1.1);
+    background-color: red;
+    color: black;
+
+}
