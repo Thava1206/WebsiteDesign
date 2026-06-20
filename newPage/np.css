@@ -1,5 +1,7 @@
 * {
     background-color: bisque;
+    padding: 0;
+    margin: 0;
 }
 .animated-hover {
     background-color: orange;
@@ -17,5 +19,27 @@
     transform: scale(1.1);
     background-color: red;
     color: black;
+
+}
+.animated-word h1{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px;
+    border: rgb(0, 0, 0) 5px;
+    border-style: inset;
+    transition: background-color 0.3s ease, 
+                color .7s ease,
+                border .15s ease;
+}
+.animated-word:hover h1{
+    color: black;
+    background-color: white;
+    border: rgb(255, 0, 0) 10px;
+    border-style: inset;
+    transform:scale(1.2);
 
 }
